@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <div class="container">
+        <div class="calc-header">
+            <input type="text" id="display" placeholder="0">
+        </div>
+        <div class="calc-body">
+            <div class="body-single">
+                <input type="button" class="btn" value="C" onclick="display.value = null" style="background-color: lightsalmon;">
+                <input type="button" class="btn" value="+/-">
+                <input type="button" class="btn" value="%" onclick="calculate(this.value)">
+                <input type="button" class="btn btn-style" value="/" onclick="calculate(this.value)">
+            </div>
+            <div class="body-single">
+                <input type="button" class="btn" value="7" onclick="calculate(this.value)">
+                <input type="button" class="btn" value="8" onclick="calculate(this.value)">
+                <input type="button" class="btn" value="9" onclick="calculate(this.value)">
+                <input type="button" class="btn btn-style" value="*" onclick="calculate(this.value)">
+            </div>
+            <div class="body-single">
+                <input type="button" class="btn" value="4" onclick="calculate(this.value)">
+                <input type="button" class="btn" value="5" onclick="calculate(this.value)">
+                <input type="button" class="btn" value="6" onclick="calculate(this.value)">
+                <input type="button" class="btn btn-style" value="+" onclick="calculate(this.value)">
+            </div>
+            <div class="body-single">
+                <input type="button" class="btn" value="1" onclick="calculate(this.value)">
+                <input type="button" class="btn" value="2" onclick="calculate(this.value)">
+                <input type="button" class="btn" value="3" onclick="calculate(this.value)">
+                <input type="button" class="btn btn-style" value="-" onclick="calculate(this.value)">
+            </div>
+            <div class="body-single">
+                <input type="button" class="btn" value="0" onclick="calculate(this.value)">
+                <input type="button" class="btn" value="." onclick="calculate(this.value)">
+                <input type="button" class="btn" value="00" onclick="calculate(this.value)">
+                <input type="button" class="btn btn-style" style="background-color: lightblue;" value="=" onclick="display.value = eval(display.value)">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

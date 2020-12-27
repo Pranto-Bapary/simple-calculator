@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+.container{
+    width: 360px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 8px 4px 0px rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+}
+.container:hover{
+    box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.2);
+}
+h1{
+    font-family: 'Redressed', cursive;
+    text-align: center;
+}
+.calc-header input{
+    height: 100px;
+    width: 355px;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 550;
+    letter-spacing: 4px;
+    outline: none;
+    border: 1px solid #ddd;
+}
+.btn{
+    height: 70px;
+    width:87px;
+    margin-bottom: 5px;
+    border: none;
+    outline: none;
+    background: darkslategrey;
+    color: white;
+    font-size: 18px;
+    font-weight: 550;
+    transition: 0.3s;
+    
+}
+.btn:hover{
+   background:rgb(79, 136, 136);
+}
+.btn-style{
+    background: lightpink;
+    outline: none;
+    border: none;
+}
