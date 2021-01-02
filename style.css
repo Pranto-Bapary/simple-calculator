@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 .container{
-    width: 385px;
+    width: 365px;
     margin: 0 auto;
     text-align: center;
     box-shadow: 0px 8px 4px 0px rgba(0,0,0,0.2);
@@ -16,7 +16,7 @@ h1{
 }
 .calc-header input{
     height: 100px;
-    width: 385px;
+    width: 360px;
     text-align: right;
     font-size: 30px;
     font-weight: 550;
